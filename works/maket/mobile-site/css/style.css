@@ -1,0 +1,324 @@
+@font-face {
+  font-family: "Gotham Pro Light";
+  src: url("../fonts/GothamPro-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Medium";
+  src: url("../fonts/GothamPro-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  background-color: #0b346c;
+  font-family: "Gotham Pro", sans-serif;
+  margin: 0;
+}
+
+header {
+  padding-top: 20px;
+  background-color: #0c73fe;
+}
+
+footer {
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: #065398;
+}
+
+.header-logo {
+  width: 267px;
+  height: 74px;
+}
+
+.bron {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.bron-input {
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  margin: 2px;
+  outline: none;
+}
+
+.bron-date {
+  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 12px;
+  margin: 2px;
+  outline: none;
+}
+
+.bron-button {
+  background-color: #ff9163;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 3px;
+}
+
+.content-bar {
+  margin-top: 10px;
+  margin-right: 7px;
+  margin-left: 7px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.struktura {
+  margin-top: 10px;
+  margin-right: 7px;
+  margin-left: 7px;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 22px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0;
+}
+
+.title2 {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  margin: 0;
+}
+
+.title3 {
+  font-size: 18px;
+  padding-top: 10px;
+  color: white;
+  padding-bottom: 12px;
+  margin: 0;
+}
+
+.title4 {
+  font-size: 18px;
+  text-decoration: underline;
+  color: #6a98c1;
+  text-align: left;
+  margin: 0;
+}
+
+.icon-place {
+  display: inline-block;
+}
+
+.icon-image {
+  height: 22px;
+}
+
+.image-promo {
+  display: block;
+  width: 100%;
+}
+
+.text {
+  display: block;
+  text-align: justify;
+  width: 100%;
+  font-family: "Gotham Pro Light";
+  font-size: 14px;
+}
+
+.airplanes {
+  width: 100%;
+  background-color: #f3f9ff;
+  align-items: center;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table td,
+table th {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+}
+
+table td:nth-child(1),
+table th:nth-child(1) {
+  border-right: 1px solid grey;
+}
+
+table th {
+  border-bottom: 1px solid grey;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 823px) {
+  body {
+    background-color: #0b346c;
+    font-family: "Gotham Pro", sans-serif;
+    margin: 0;
+  }
+
+  .bron {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .top-input {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .bron-input {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    margin-bottom: 1px;
+    width: 90%;
+    font-family: "Gotham Pro Light";
+    outline: none;
+  }
+  .bron-date {
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 12px;
+    margin: 1px;
+    margin-top: 2px;
+    width: 44%;
+    font-family: "Gotham Pro Light";
+    outline: none;
+  }
+
+  .bron-button {
+    background-color: #ff9163;
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    width: 90%;
+    font-family: "Gotham Pro Medium";
+    margin-top: 3px;
+    border-radius: 3px;
+  }
+
+  .content-bar {
+    margin-top: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .struktura {
+    margin-top: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    font-size: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 0;
+  }
+
+  .title2 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    margin: 0;
+  }
+
+  .title3 {
+    font-size: 18px;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 12px;
+    margin: 0;
+  }
+
+  .title4 {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #6a98c1;
+    text-align: left;
+    margin: 0;
+  }
+
+  .icon-place {
+    display: inline-block;
+  }
+
+  .icon-image {
+    height: 22px;
+  }
+
+  .image-promo {
+    display: block;
+    width: 100%;
+  }
+
+  .text {
+    display: block;
+    text-align: justify;
+    width: 100%;
+    font-family: "Gotham Pro Light";
+    font-size: 14px;
+  }
+
+  .airplanes {
+    width: 100%;
+    background-color: #f3f9ff;
+    align-items: center;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  table td,
+  table th {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+  }
+
+  table td:nth-child(1),
+  table th:nth-child(1) {
+    border-right: 1px solid grey;
+  }
+
+  table th {
+    border-bottom: 1px solid grey;
+  }
+}

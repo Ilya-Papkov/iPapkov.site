@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Gotham Pro Light";
+  src: url("../fonts/GothamPro-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Medium";
+  src: url("../fonts/GothamPro-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gotham Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  border-bottom: 2px solid #008dcf;
+}
+
+.row:nth-child(1),
+.row:nth-child(6) {
+  border-bottom: none;
+}
+
+header {
+  background-color: #3bc7f1;
+}
+
+footer {
+  margin-top: 80px;
+  padding: 30px;
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+}
+
+.header-logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 180px;
+}
+
+.header-content {
+  text-align: right;
+  color: #fff;
+}
+
+.section-title,
+.subtitle {
+  color: #008dcf;
+}
+
+.subtitle {
+  margin-top: 30px;
+}
+
+.site-content {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.exesace-link {
+  text-decoration: none;
+  width: 90%;
+}
+
+.exesace {
+  margin: 20px auto 3%;
+  width: 94%;
+  border-radius: 20px;
+  color: black;
+  height: 200px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.exesace-title {
+  color: rgb(255, 255, 255);
+  z-index: 3;
+  text-shadow: black;
+  font-family: "Gotham Pro Light";
+  line-height: 25px;
+}
+
+.word-div {
+  position: relative;
+  background: url(../images/word.jpg) no-repeat center;
+}
+
+.html-div {
+  position: relative;
+  background: url(../images/html.png) no-repeat center;
+}
+
+.js-div {
+  position: relative;
+  background: url(../images/js.jpg) no-repeat center;
+}
+
+.php-div {
+  position: relative;
+  background: url(../images/PHP.png) no-repeat center;
+}
+
+.ph-div {
+  position: relative;
+  background: url(../images/photoshop.jpg) no-repeat center;
+}
+
+.word-div::after,
+.html-div::after,
+.js-div::after,
+.php-div::after,
+.ph-div::after {
+  content: "";
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.exesace:hover {
+  position: relative;
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+.footer-content {
+  color: #fff;
+  font-family: "Gotham Pro Light";
+}
